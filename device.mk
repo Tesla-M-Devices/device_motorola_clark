@@ -59,11 +59,6 @@ PRODUCT_PACKAGES += \
     mm-qcamera-app \
     Snap
 
-# CMActions
-PRODUCT_PACKAGES += \
-    CMActions \
-    libjni_CMActions
-
 # Display
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
@@ -91,11 +86,6 @@ PRODUCT_PACKAGES += \
     init.qcom.power.rc \
     init.qcom.rc \
     ueventd.qcom.rc
-
-# IPA Manager
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
 
 # Keylayout
 PRODUCT_COPY_FILES += \
