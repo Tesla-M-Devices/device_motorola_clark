@@ -4,13 +4,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common AICP stuff.
-$(call inherit-product, vendor/validus/configs/common.mk)
+$(call inherit-product, vendor/validus/config/common.mk)
 
 # Inherit telephony stuff
-$(call inherit-product, vendor/validus/configs/telephony.mk)
+# $(call inherit-product, vendor/validus/config/telephony.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/validus/configs/nfc_enhanced.mk)
+$(call inherit-product, vendor/validus/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/motorola/clark/device.mk)
