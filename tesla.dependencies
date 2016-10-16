@@ -1,7 +1,7 @@
 [
   {
     "remote":       "github",
-    "repository": "AICP/kernel_motorola_msm8992",
+    "repository": "GZR-Kernels/kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
     "branch":      "n7.0"
   },
