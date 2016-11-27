@@ -3,7 +3,7 @@
     "remote":       "github",
     "repository": "GZR-Kernels/kernel_motorola_msm8992",
     "target_path": "kernel/motorola/msm8992",
-    "branch":      "n7.0"
+    "branch":      "n7.1"
   },
   {
     "remote":       "github",
@@ -27,6 +27,6 @@
     "remote":      "github",
     "repository": "Cyanogenmod/android_external_bson",
     "target_path": "external/bson",
-    "branch":      "cm-13.0"
+    "branch":      "cm-14.1"
   }
 ]
