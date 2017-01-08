@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "AICP/kernel_motorola_msm8992",
+    "target_path": "kernel/motorola/msm8992",
+    "branch":      "n7.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "CyanogenMod/android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TheMuppets/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote":      "github",
+    "repository":  "TheMuppets/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "branch":      "cm-14.1"
+  }
+]
