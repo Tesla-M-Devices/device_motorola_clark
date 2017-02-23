@@ -122,6 +122,9 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/motorola/msm8992
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
